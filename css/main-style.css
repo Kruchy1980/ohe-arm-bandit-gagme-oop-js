@@ -31,13 +31,14 @@ header {
 }
 
 
-/* Pargraph */
+/* Game Name */
 
 header h1 {
     padding-top: 1%;
     line-height: 55px;
     font-weight: bold;
     text-align: center;
+    font-size: 2em;
 }
 
 
@@ -60,7 +61,6 @@ header span {
     font-size: 300%;
     color: #ffff00;
     text-align: center;
-    border: 1px solid #000;
 }
 
 
@@ -228,4 +228,204 @@ footer {
     padding: 2% 1%;
     text-align: center;
     color: #ccc;
+}
+
+
+/* From 768 px */
+
+@media only screen and (min-width: 768px) {
+    /* Game Name */
+    header h1 {
+        padding-top: 1%;
+        line-height: 55px;
+        font-weight: bold;
+        text-align: center;
+        font-size: 2.5em;
+    }
+    /* header span style  */
+    header span {
+        color: rgb(64, 233, 64);
+        font-size: 1em;
+        padding-bottom: 8%;
+    }
+    /* Stars */
+    .stars {
+        height: 100px;
+        min-width: 400px;
+    }
+    .stars span {
+        margin: 0 5%;
+    }
+    /* Images */
+    .box-container {
+        margin: 2%;
+    }
+    /* divs dimensions */
+    .image {
+        width: 100px;
+        height: 100px;
+        background-color: #fff;
+        border-radius: 50%;
+    }
+    div.image {
+        margin: 3% 2%;
+    }
+    #start,
+    #bid {
+        margin: 2% auto;
+    }
+}
+
+
+/* From 1024 px */
+
+@media only screen and (min-width: 1024px) {
+    /* Header in general */
+    header {
+        margin-bottom: 2px;
+    }
+    /* Game Name */
+    header h1 {
+        padding: 1% 0;
+        line-height: 55px;
+        font-weight: bold;
+        text-align: center;
+        font-size: 3.5em;
+    }
+    /* header span style  */
+    header span {
+        color: rgb(64, 233, 64);
+        font-size: 1.2em;
+        padding-bottom: 8%;
+    }
+    /* Stars */
+    .stars {
+        height: 100px;
+        min-width: 400px;
+        margin: 0 auto;
+    }
+    .stars span {
+        margin: 0 5%;
+    }
+    /* Images */
+    .box-container {
+        margin: 0.5%;
+    }
+    /* divs dimensions */
+    .image {
+        width: 150px;
+        height: 150px;
+        background-color: #fff;
+        border-radius: 50%;
+    }
+    div.image {
+        margin: 1% 2%;
+    }
+    #bid,
+    #start {
+        margin: 1% auto;
+        font-size: 2em;
+        padding: 1% 0 1% 10px;
+    }
+    /* Wallet */
+    .info {
+        margin: 1% 0;
+        font-size: 2em;
+        padding: 5px;
+    }
+    /* score */
+    .score {
+        width: 95%;
+        margin: 5px 0 0 0;
+        text-align: left;
+    }
+    /* Text lines */
+    .score p {
+        font-size: 1.5em;
+        padding: 5px;
+    }
+    footer {
+        position: relative;
+        bottom: 5%;
+        font-size: 1.2em;
+        margin: 0.5% 0 0 0;
+        padding: 1%;
+    }
+}
+
+
+/* From 14040 px */
+
+@media only screen and (min-width: 1440px) {
+    /* Header in general */
+    header {
+        margin-bottom: 2px;
+    }
+    /* Game Name */
+    header h1 {
+        padding: 1% 0;
+        line-height: 55px;
+        font-weight: bold;
+        text-align: center;
+        font-size: 3.5em;
+    }
+    /* header span style  */
+    header span {
+        color: rgb(64, 233, 64);
+        font-size: 1.2em;
+        padding-bottom: 8%;
+    }
+    /* Stars */
+    .stars {
+        height: 100px;
+        min-width: 400px;
+        margin: 0 auto;
+    }
+    .stars span {
+        margin: 0 5%;
+    }
+    /* Images */
+    .box-container {
+        margin: 0.5%;
+    }
+    /* divs dimensions */
+    .image {
+        width: 150px;
+        height: 150px;
+        background-color: #fff;
+        border-radius: 50%;
+    }
+    div.image {
+        margin: 1% 2%;
+    }
+    #bid,
+    #start {
+        margin: 1% auto;
+        font-size: 2em;
+        padding: 1% 0 1% 10px;
+    }
+    /* Wallet */
+    .info {
+        margin: 1% 0;
+        font-size: 2em;
+        padding: 5px;
+    }
+    /* score */
+    .score {
+        width: 95%;
+        margin: 5px 0 0 0;
+        text-align: left;
+    }
+    /* Text lines */
+    .score p {
+        font-size: 1.5em;
+        padding: 5px;
+    }
+    footer {
+        position: relative;
+        bottom: 5%;
+        font-size: 1.2em;
+        margin: 0.5% 0 0 0;
+        padding: 1%;
+    }
 }
