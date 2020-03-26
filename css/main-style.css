@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bree Serif', serif;
+}
+
+
+/* body style */
+
+body {
+    background-image: linear-gradient(to right, #a51569, #4bb31b, #dd2222e7);
+}
+
+
+/* Wsio na mobile */
+
+
+/* header style */
+
+header {
+    background-image: linear-gradient(to right, #830e52, #2a7a0a, #ca1f1fe7);
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    color: #bbb;
+    border-bottom: 1px solid linear-gradient(to right, #a51569, #d3d31b, #dd2222e7);
+    border-radius: 0 0 20px 20px;
+    font-size: 16px;
+    margin-bottom: 3%;
+}
+
+
+/* Pargraph */
+
+header h1 {
+    padding-top: 1%;
+    line-height: 55px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+/* header span style  */
+
+header span {
+    color: rgb(64, 233, 64);
+    font-size: 0.7em;
+    padding-bottom: 8%;
+}
+
+
+/* Stars  section style */
+
+.stars {
+    height: 100px;
+    min-width: 300px;
+    width: 70vw;
+    margin: 3% auto;
+    font-size: 300%;
+    color: #ffff00;
+    text-align: center;
+    border: 1px solid #000;
+}
+
+
+/* all stars in section */
+
+.stars span {
+    display: inline-block;
+}
+
+
+/* Separate style of stars */
+
+.stars span:nth-of-type(1) {
+    position: relative;
+    top: 35%;
+}
+
+.stars span:nth-of-type(2) {
+    position: relative;
+    top: 15%;
+}
+
+.stars span:nth-of-type(3) {
+    position: relative;
+    top: 5%;
+}
+
+.stars span:nth-of-type(4) {
+    position: relative;
+    top: 15%;
+}
+
+.stars span:nth-of-type(5) {
+    position: relative;
+    top: 35%;
+}
+
+
+/* Main section for game */
+
+.main-box {
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+/* divs container display */
+
+.box-container {
+    display: flex;
+    margin: 5%;
+    justify-content: center;
+}
+
+
+/* divs dimensions */
+
+.image {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+div.image {
+    margin: 5% 2%;
+}
+
+
+/* bit input */
+
+#bid {
+    width: 70%;
+    max-width: 350px;
+    margin: 5% auto;
+    line-height: 24px;
+    font-size: 24px;
+    text-align: center;
+    box-shadow: 0 0 5px 5px #dfc016;
+    background-color: #830e52;
+    border-radius: 12px;
+    color: #bbb;
+    font-weight: bold;
+    padding: 2% 0 2% 10px;
+    -webkit-text-stroke: 1px #014d01;
+}
+
+
+/* Currency */
+
+.currency {
+    font-size: 2em;
+    margin-left: 2%;
+    color: rgb(67, 214, 22);
+}
+
+
+/* Starting button = Zakręć */
+
+#start {
+    display: block;
+    margin: 5% auto;
+    width: 70%;
+    max-width: 300px;
+    font-size: 32px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 5px #000;
+    background-color: #00000088;
+    color: #4fbe23;
+    padding: 1%;
+    cursor: pointer;
+    outline: none;
+}
+
+
+/* start hover */
+
+#start:hover {
+    background-color: #000000aa;
+    box-shadow: 0 0 10px 10px #000;
+}
+
+
+/* Main info display */
+
+.info {
+    margin: 5% 0;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #002000;
+    text-align: left;
+    background: #ffff00;
+    border-radius: 12px;
+    padding: 2%;
+}
+
+
+/* Statistics result: */
+
+.score {
+    width: 60%;
+    margin: 5%;
+    text-align: left;
+}
+
+
+/* Text lines */
+
+.score p {
+    font-size: 20px;
+}
+
+
+/* footer */
+
+footer {
+    position: relative;
+    bottom: 1%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    margin-top: 2%;
+    border-top: 1px solid #014d01;
+    padding: 2% 1%;
+    text-align: center;
+    color: #ccc;
+}

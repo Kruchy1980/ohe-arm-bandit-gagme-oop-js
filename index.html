@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jednoręki bandyta - OOP JS</title>
+    <!-- Bookmark icon -->
+    <link rel="icon" href="./bookmark-icon/one-armed-bandit.png" type="icon/png">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif&display=swap&subset=latin-ext" rel="stylesheet">
+    <!-- Styles  -->
+    <link rel="stylesheet" href="./css/main-style.css">
+
+</head>
+
+<body>
+    <header>
+        <!-- Main header -->
+        <h1>Jednoręki bandyta</h1> <span>Gra utworzona w JavaScript za pmocą programowania zorientowanego obiektowo.</span>
+    </header>
+    <section class="stars">
+        <span>&starf;</span>
+        <span>&starf;</span>
+        <span>&starf;</span>
+        <span>&starf;</span>
+        <span>&starf;</span>
+    </section>
+    <!-- Display boxes -->
+    <section class="main-box">
+        <article class="box-container">
+            <div class="image"></div>
+            <div class="image"></div>
+            <div class="image"></div>
+        </article>
+
+        <!-- Play section -->
+        <section class="play">
+            <input type="number" id="bid" placeholder="Podaj stawkę"> <span class="currency">$</span>
+            <button id="start">Zakręć!</button>
+        </section>
+        <!-- Your wallet info -->
+        <section class="info">Portfel:
+            <span class="your-wallet"></span> $
+        </section>
+        <!-- Game Information section -->
+        <section class="score">
+            <p>Rezultat: <span class="result">---</span></p>
+            <p>Suma gier: <span class="total-games">---</span></p>
+            <p>Wyganych: <span class="win-games">---</span></p>
+            <p>Przegranych: <span class="lost-games">---</span></p>
+        </section>
+    </section>
+    <footer>&copy; 2020 💟 Utworzone przez Jakub Kruszyński 🇵🇱 </footer>
+    <script src="./scripts/wallet.js"></script>
+    <script src="./scripts/statistics.js"></script>
+    <script src="./scripts/draw.js"></script>
+    <script src="./scripts/result.js"></script>
+    <script src="./scripts/game.js"></script>
+    <script src="./scripts/main.js"></script>
+
+
+
+
+</body>
+
+</html>
