@@ -231,6 +231,9 @@ footer {
 }
 
 
+/* Jeszcze do dodania coś pomieędzy 425 a 768px */
+
+
 /* From 768 px */
 
 @media only screen and (min-width: 768px) {
@@ -273,6 +276,83 @@ footer {
     #start,
     #bid {
         margin: 2% auto;
+    }
+}
+
+
+/* From 850 px */
+
+@media only screen and (min-width: 850px) {
+    /* Header in general */
+    header {
+        margin-bottom: 2px;
+    }
+    /* Game Name */
+    header h1 {
+        padding: 1% 0;
+        line-height: 55px;
+        font-weight: bold;
+        text-align: center;
+        font-size: 3.5em;
+    }
+    /* header span style  */
+    header span {
+        color: rgb(64, 233, 64);
+        font-size: 1.2em;
+        padding-bottom: 8%;
+    }
+    /* Stars */
+    .stars {
+        height: 100px;
+        min-width: 400px;
+        margin: 0 auto;
+    }
+    .stars span {
+        margin: 0 5%;
+    }
+    /* Images */
+    .box-container {
+        margin: 0.5%;
+    }
+    /* divs dimensions */
+    .image {
+        width: 150px;
+        height: 150px;
+        background-color: #fff;
+        border-radius: 50%;
+    }
+    div.image {
+        margin: 1% 2%;
+    }
+    #bid,
+    #start {
+        margin: 1% auto;
+        font-size: 2em;
+        padding: 1% 0 1% 10px;
+    }
+    /* Wallet */
+    .info {
+        margin: 1% 0;
+        font-size: 1.5em;
+        padding: 2px;
+    }
+    /* score */
+    .score {
+        width: 95%;
+        margin: 5px 0 0 0;
+        text-align: left;
+    }
+    /* Text lines */
+    .score p {
+        font-size: 1.5em;
+        padding: 5px;
+    }
+    footer {
+        position: relative;
+        bottom: 5%;
+        font-size: 1.2em;
+        margin: 0.5% 0 0 0;
+        padding: 1%;
     }
 }
 
