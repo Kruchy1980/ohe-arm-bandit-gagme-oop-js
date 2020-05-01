@@ -12,6 +12,10 @@ body {
     background-image: linear-gradient(to right, #a51569, #4bb31b, #dd2222e7);
 }
 
+.main-container {
+    max-height: 100vh !important;
+}
+
 
 /* Wsio na mobile */
 
@@ -57,10 +61,11 @@ header span {
     height: 100px;
     min-width: 300px;
     width: 70vw;
-    margin: 3% auto;
+    margin: 30px auto;
     font-size: 300%;
     color: #ffff00;
     text-align: center;
+    transition: 0.5s;
 }
 
 
@@ -103,7 +108,7 @@ header span {
 
 .main-box {
     width: 95%;
-    margin: 0 auto;
+    margin: 30px auto;
     text-align: center;
 }
 
@@ -112,7 +117,7 @@ header span {
 
 .box-container {
     display: flex;
-    margin: 5%;
+    margin: 30px auto;
     justify-content: center;
 }
 
@@ -136,7 +141,7 @@ div.image {
 #bid {
     width: 70%;
     max-width: 350px;
-    margin: 5% auto;
+    /* margin: 3% auto; */
     line-height: 24px;
     font-size: 24px;
     text-align: center;
@@ -163,7 +168,7 @@ div.image {
 
 #start {
     display: block;
-    margin: 5% auto;
+    margin: 30px auto;
     width: 70%;
     max-width: 300px;
     font-size: 32px;
@@ -203,7 +208,7 @@ div.image {
 
 .score {
     width: 60%;
-    margin: 5%;
+    margin: 15px;
     text-align: left;
 }
 
@@ -218,8 +223,8 @@ div.image {
 /* footer */
 
 footer {
-    position: relative;
-    bottom: 1%;
+    position: fixed;
+    bottom: 0;
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 0.8em;
@@ -252,10 +257,10 @@ footer {
         padding-bottom: 8%;
     }
     /* Stars */
-    .stars {
-        height: 100px;
+    /* .stars {
+        height: 10px;
         min-width: 400px;
-    }
+    } */
     .stars span {
         margin: 0 5%;
     }
@@ -348,8 +353,8 @@ footer {
         padding: 5px;
     }
     footer {
-        position: relative;
-        bottom: 5%;
+        /* position: relative; */
+        bottom: 0;
         font-size: 1.2em;
         margin: 0.5% 0 0 0;
         padding: 1%;
@@ -380,7 +385,7 @@ footer {
     }
     /* Stars */
     .stars {
-        height: 100px;
+        height: 150px;
         min-width: 400px;
         margin: 0 auto;
     }
@@ -403,9 +408,9 @@ footer {
     }
     #bid,
     #start {
-        margin: 1% auto;
+        margin: 10px auto;
         font-size: 2em;
-        padding: 1% 0 1% 10px;
+        padding: 10px 0 10px 10px;
     }
     /* Wallet */
     .info {
@@ -425,8 +430,8 @@ footer {
         padding: 5px;
     }
     footer {
-        position: relative;
-        bottom: 5%;
+        /* position: relative; */
+        bottom: 0;
         font-size: 1.2em;
         margin: 0.5% 0 0 0;
         padding: 1%;
@@ -478,12 +483,12 @@ footer {
     div.image {
         margin: 1% 2%;
     }
-    #bid,
+    /* #bid,
     #start {
-        margin: 1% auto;
-        font-size: 2em;
-        padding: 1% 0 1% 10px;
-    }
+        margin: 15px auto;
+        font-size: 20px;
+        padding: 10px 0 10px 10px;
+    } */
     /* Wallet */
     .info {
         margin: 1% 0;
@@ -502,8 +507,8 @@ footer {
         padding: 5px;
     }
     footer {
-        position: relative;
-        bottom: 5%;
+        /* position: relative; */
+        bottom: 0;
         font-size: 1.2em;
         margin: 0.5% 0 0 0;
         padding: 1%;

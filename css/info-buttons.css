@@ -1,0 +1,19 @@
+.info-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.restart,
+.legend {
+    padding: 5px 10px;
+    background-color: red;
+    color: #eee;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.legend {
+    background-color: green;
+    color: #222;
+}
