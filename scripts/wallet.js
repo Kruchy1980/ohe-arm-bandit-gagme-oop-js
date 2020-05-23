@@ -51,7 +51,7 @@ class Wallet {
 // In a game usage we do not need that this is only fo checking when the game is under construction
 
 // // Here we can set the instance of wallet for check and create our basic first wallet
-const wallet = new Wallet(1000);
+// const wallet = new Wallet(1000);
 // // Checking and logging the wallet value by usung on object the methoode  getWalletValue
 // console.log(wallet.getWalletValue());
 // // Just for now checking if the checkPlaying Possibility method is working

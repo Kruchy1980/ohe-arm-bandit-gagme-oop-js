@@ -37,7 +37,7 @@ class Draw {
                 },
             ];
             // the variable which will store the score of our drawing
-            // Hhere we can pass the results from the draw result method.
+            // Here we can pass the results from the draw result method.
             let _result = this.drawResult();
             // Methode created inside constructor for having n acces to the _result variable
             this.getDrawResult = () => _result;
@@ -54,7 +54,7 @@ class Draw {
             const image = this.options[optionsIndex];
             // check if it works
             console.log(image);
-            // And now we need to push the drawed object with image parameters into the images array.
+            // And now we need to push the draw object with image parameters into the images array.
             images.push(image);
         }
         // That method only returns the images and pass them to the _result variable.

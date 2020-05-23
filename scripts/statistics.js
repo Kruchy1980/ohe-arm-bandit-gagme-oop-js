@@ -45,7 +45,7 @@ class Statistics {
         return [games, wins, lost];
     }
 }
-// Now needed in finished game so we can comment that 
+// Now needed in finished game so we can comment that
 // ----------------------------------------------
 // // Check if the class is working by creating the instance
 // const stats = new Statistics();
