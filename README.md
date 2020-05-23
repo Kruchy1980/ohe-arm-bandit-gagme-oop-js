@@ -10,6 +10,8 @@ Gra ta jest stworzona przy użyciu technologii:
 1. Początkowe saldo każdego gracza to 500$, z którego można obstawiać wedle uznania wpisując w pole "Podaj stawkę" kwotę zakładu.
 2. Po obstawieniu zakładu należy nacisnąć przycisk "Zakręć" i maszyna idzie w ruch, a do nas należy jedynie czekać na wynik.
 
+**!!! Uwaga pole "Podaj stawkę czyści się po każdorazowym naciśnięciu przycisku zakręć !!!**
+
 **Instrukcja:**
 Po naciśnięciu przycisku instrukcja, wyskakuje okno modalne, w którym zapisane są wszystkie możliwe wygrane i mnożnik postawionego zakładu.
 Onko modalne można zamknąć przyciskiem "X" w jego prawym górnym rogu.
