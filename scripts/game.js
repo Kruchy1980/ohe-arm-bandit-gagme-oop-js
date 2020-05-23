@@ -5,6 +5,14 @@ class Game {
     // Constructor method which collects all the elemetnwe need in here
     constructor(start) {
             // Properties which is needed to created the instances as wallet and statiscics
+            // The refresh button
+            const restart = document.querySelector('.restart');
+            restart.addEventListener('click', () => {
+                window.location.reload();
+            });
+            // Modal window instruction add
+            const instruction = document.querySelector('.legend');
+            instruction.addEventListener('click', modalToggle);
             //  class Statistics
             this.stats = new Statistics();
             // class Wallet with the money property for the bginning
@@ -80,7 +88,7 @@ class Game {
         // if can not
         if (!this.wallet.checkPlayingPossibility(bid)) return alert(`
         Nie masz tylu pieniędzy - ${bid.toFixed(2)} :( ! 
-        Spróbuj  postawić niższą stawkę.
+        Spróbuj  postawić inną stawkę.
         `);
         // 3. Now is the time to gather money by mavhine for bet
         this.wallet.changeWalletContent(bid, '-'); // type  = - because we are paying for game !!! it is not a result of winning or loose

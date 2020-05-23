@@ -17,3 +17,10 @@
     background-color: green;
     color: #222;
 }
+
+
+/* Class added to modal window 'instrukcja' */
+
+.modal-show {
+    display: block;
+}

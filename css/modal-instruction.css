@@ -1,0 +1,86 @@
+    /* Class added to modal window 'instrukcja' */
+    /* Main modal box */
+    
+    .modal-box {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: #00000080;
+        display: none;
+    }
+    /* Main content window */
+    
+    .modal-window {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 95%;
+        height: auto;
+        background-color: #ccc;
+        padding: 10px;
+        border-radius: 20px;
+        box-shadow: 0 0 10px 2px #eee;
+        transition: all 1s;
+    }
+    
+    @media (min-width: 600px) {
+        .modal-window {
+            width: 80%;
+        }
+    }
+    /* Modal elements styling */
+    /* Paragraphs */
+    
+    .modal-paragrqaph {
+        margin: 10px 0;
+    }
+    /* texts from images */
+    
+    .win-text {
+        margin: 0 10px;
+        font-size: 20px;
+        margin-left: 10px;
+        @media (min-width: 600px) {
+            font-size: 24px;
+        }
+    }
+    
+    .win-images {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+    }
+    /* Warn text */
+    
+    .warn-text {
+        color: #ff0000;
+        text-align: center;
+    }
+    /* Buttons */
+    
+    .restart-button {
+        color: #ff0000;
+    }
+    
+    .legend-button {
+        color: #035703;
+    }
+    /* Close modal window button */
+    
+    .modal-button {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        background-color: #ff0000;
+        padding: 1px 5px;
+        color: #eee;
+        border-radius: 50%;
+    }
+    /* Images */
+    
+    .modal-show {
+        display: block;
+    }

@@ -18,7 +18,7 @@ class Result {
             // Bid means the money quantity which we assumed
             //  Now implementation
             //  Now we can implement the condition statement
-            if (result) return 5 * bid; // if we win thanretunr the sum of bit multiply by 5.
+            if (result) return 5 * bid; // if we win than return the sum of bit multiply by 5.
             //  In every other case
             else return 0;
         }

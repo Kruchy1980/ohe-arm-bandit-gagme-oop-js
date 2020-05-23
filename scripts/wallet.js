@@ -54,7 +54,7 @@ class Wallet {
 const wallet = new Wallet(1000);
 // // Checking and logging the wallet value by usung on object the methoode  getWalletValue
 // console.log(wallet.getWalletValue());
-// // Just for now checking if the checkPlayuinPossibility method is working
+// // Just for now checking if the checkPlaying Possibility method is working
 // // We will check the border values from top extreme
 // console.log(wallet.checkPlayingPossibility(1001));
 // console.log(wallet.checkPlayingPossibility(1000));

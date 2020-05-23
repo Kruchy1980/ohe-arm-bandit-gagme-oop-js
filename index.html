@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="./css/main-style.css">
     <!-- Info  -->
     <link rel="stylesheet" href="./css/info-buttons.css">
+    <!-- Instruction modal styles -->
+    <link rel="stylesheet" href="./css/modal-instruction.css">
 
 </head>
 
@@ -60,6 +62,77 @@
     <footer>
         <p>&copy; 2020 🙋‍♂️ Utworzone przez Jakub Kruszyński 🇵🇱</p>
     </footer>
+
+    <!-- Modal window with instruction -->
+    <div class="modal-box">
+        <div class="modal-window">
+            <button class="modal-button">X</button>
+            <h2>Instrukcja:</h2>
+            <p class="modal-paragrqaph">1. Podaj stawkę - wpisz stawkę, którą chcesz postawić lub też kliknij na odpowiedni przycisk w celu jej podania</p>
+            <p class="modal-paragrqaph">2. Po wpisaniu wciśnij przycisk zakręć i cekaj na wynik</p>
+            <p class="modal-paragrqaph">3. W celu rozpoczęcia gry od początku, naciśnij przycisk <strong class="restart-button"> "Restartuj"</strong></p>
+            <p class="modal-paragrqaph">4. W celu zapoznania się z zasadami naciśnij przycisk<strong class="legend-button"> "Instrukcja"</strong></p>
+            <h3>Wygrana:</h3>
+            <p class="modal-paragrqaph">Wylosowanie przez maszynę 3 tych samych obrazków mnoży twój zakład przez:</p>
+
+            <div class="win">
+                <strong class="win-text">1. </strong>
+                <!-- <div class="win-images"> -->
+                <img class="win-images" src="./images/fruits.jpeg" alt="Kosz Owoców">
+                <img class="win-images" src="./images/fruits.jpeg" alt="Kosz Owoców">
+                <img class="win-images" src="./images/fruits.jpeg" alt="Kosz Owoców"><strong class="win-text"> =  X 50</strong>
+                <!-- </div> -->
+            </div>
+            <div class="win">
+                <strong class="win-text">2. </strong>
+                <!-- <div class="win-images"> -->
+                <img class="win-images" src="./images/seven.png" alt="Numer Siedem">
+                <img class="win-images" src="./images/seven.png" alt="Numer Siedem">
+                <img class="win-images" src="./images/seven.png" alt="Numer Siedem"><strong class="win-text"> =  X 20</strong>
+                <!-- </div> -->
+            </div>
+            <div class="win">
+                <strong class="win-text">3. </strong>
+                <!-- <div class="win-images"> -->
+                <img class="win-images" src="./images/apple.jpeg" alt="Jabłko">
+                <img class="win-images" src="./images/apple.jpeg" alt="Jabłko">
+                <img class="win-images" src="./images/apple.jpeg" alt="Jabłko"><strong class="win-text"> =  X 10</strong>
+                <!-- </div> -->
+            </div>
+            <div class=" win">
+                <strong class="win-text">4. </strong>
+                <!-- <div class="win-images"> -->
+                <img class="win-images" src="./images/banana.jpeg" alt="Banan">
+                <img class="win-images" src="./images/banana.jpeg" alt="Banan">
+                <img class="win-images" src="./images/banana.jpeg" alt="Banan"><strong class="win-text"> =  X 5</strong>
+                <!-- </div> -->
+            </div>
+            <div class="win">
+                <strong class="win-text">5. </strong>
+                <!-- <div class="win-images"> -->
+                <img class="win-images" src="./images/cherry.jpeg" alt="Wiśnia">
+                <img class="win-images" src="./images/cherry.jpeg" alt="Wiśnia">
+                <img class="win-images" src="./images/cherry.jpeg" alt="Wiśnia"><strong class="win-text"> =  X 20</strong>
+                <!-- </div> -->
+            </div>
+            <div class="win">
+                <strong class="win-text">6. </strong>
+                <!-- <div class="win-images"> -->
+                <img class="win-images" src="./images/tomato.jpeg" alt="Pomidor">
+                <img class="win-images" src="./images/tomato.jpeg" alt="Pomidor">
+                <img class="win-images" src="./images/tomato.jpeg" alt="Pomidor"><strong class="win-text"> =  X 2</strong>
+                <!-- </div> -->
+            </div>
+            <div class="win"><strong class="win-text">7.  Różne obrazki =  X 0.5</strong>
+            </div>
+            <h1 class="warn-text">!!! Uwaga rezultat gry się nie zapisuje - działa tylko podczas włączonej gry!!!</h1>
+        </div>
+    </div>
+
+
+
+
+    <script src="./scripts/modal.js"></script>
     <script src="./scripts/wallet.js"></script>
     <script src="./scripts/statistics.js"></script>
     <script src="./scripts/draw.js"></script>

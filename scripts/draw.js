@@ -21,11 +21,11 @@ class Draw {
                 },
                 {
                     link: './images/apple.jpeg',
-                    name: 'Apple',
+                    name: 'Jabłko',
                 },
                 {
                     link: './images/banana.jpeg',
-                    name: 'Banana',
+                    name: 'Banan',
                 },
                 {
                     link: './images/cherry.jpeg',
