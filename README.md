@@ -19,4 +19,9 @@ Onko modalne można zamknąć przyciskiem "X" w jego prawym górnym rogu.
 **Restartuj:**
 Jeśli chcemy zacząć grę od nowa wystarczy, że wciśniemy ten przycisk, a rozgrywka zostanie odświeżona i będziemy zaczynali grę z początkowym saldem 500$.
 
+**W Przygotowaniu:**
+1. Przyciski ze stałą stawką, po naciśnięciu których w pole obstawiania wskakuje odpowiednia stawka.
+2. Odpowiednie wygrane stawki w zależności od wylosowanych obrazków.
+
+
 **!!! UWAGA - Gra nie korzysta z żadnych baz danych ani z przeglądarkowych storag'y w związku z czym wyniki nie są zapisywane !!!**
